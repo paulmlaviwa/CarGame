@@ -1,7 +1,7 @@
 user_input = ""
 started = False
 while True:
-    user_input = input("> ").lower()
+    user_input = input(">> ").lower()
     if user_input == "start":
         if started:
             print("Car is already started")
